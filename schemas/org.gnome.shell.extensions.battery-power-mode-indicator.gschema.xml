@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.battery-power-mode-indicator" path="/org/gnome/shell/extensions/battery-power-mode-indicator/">
+    <key name="saver-color" type="s">
+      <default>'#2DBA6E'</default>  
+      <summary>Color for Power Saver mode</summary>
+      <description>Battery icon color when in power-saver profile</description>
+    </key>
+
+    <key name="performance-color" type="s">
+      <default>'#3484E4'</default>
+      <summary>Color for Performance mode</summary>
+      <description>Battery icon color when in performance profile</description>
+    </key>
+  </schema>
+</schemalist>
+
