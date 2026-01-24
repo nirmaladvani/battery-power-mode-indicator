@@ -22,7 +22,7 @@ Changes battery icon color based on power profile:
 
 1. git clone https://github.com/nirmaladvani/battery-power-mode-indicator.git
 2. cd battery-power-mode-indicator
-3. cp . ~/.local/share/gnome-shell/extensions/
+3. cp . ~/.local/share/gnome-shell/extensions/battery-power-mode-indicator@nirmaladvani.github.com/
 4. Press Alt + F2, then type r and press Enter if you are running X11 else restart or logout and login back on wayland.
 
 <!--
