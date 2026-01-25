@@ -34,8 +34,7 @@ cd battery-power-mode-indicator
 mkdir -p ~/.local/share/gnome-shell/extensions/battery-power-mode-indicator@nirmaladvani.github.com
 ```
 ```
-cp -r ./* ~/.local/share/gnome-shell/extensions/battery-power-mode
--indicator@nirmaladvani.github.com/
+cp -r ./* ~/.local/share/gnome-shell/extensions/battery-power-mode-indicator@nirmaladvani.github.com/
 ```
 
 X11: Restart GNOME Shell: Alt+F2, 'r', Enter
