@@ -5,7 +5,5 @@
   "shell-version": ["45", "46", "47", "48", "49"],
   "settings-schema": "org.gnome.shell.extensions.battery-power-mode-indicator",
   "url": "https://github.com/nirmaladvani/battery-power-mode-indicator",
-  "license": "GPL-2.0-or-later",
-  "version": 0.1
+  "version": 2
 }
-

@@ -6,7 +6,6 @@
       <summary>Color for Power Saver mode</summary>
       <description>Battery icon color when in power-saver profile</description>
     </key>
-
     <key name="performance-color" type="s">
       <default>'#3484E4'</default>
       <summary>Color for Performance mode</summary>
