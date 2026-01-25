@@ -1,32 +1,41 @@
 # Battery Power Mode Indicator
 
-<!--
+**Version:** 2  
+**Supported GNOME Shell Versions:** 45–49 
+[Download from extensions.gnome.org]([https://extensions.gnome.org/extension/XXXX/battery-power-mode-indicator/](https://extensions.gnome.org/extension/9204/battery-power-mode-indicator/))
 
-[![Version](https://extensions.gnome.org/assets/badge-0.1.svg)](https://extensions.gnome.org/extension/XXXX/battery-power-mode-indicator/)
-[![Shell Versions](https://extensions.gnome.org/assets/badge-45-49.svg)](https://extensions.gnome.org/extension/XXXX/battery-power-mode-indicator/)
--->
+This GNOME Shell extension changes the battery icon color based on the active power profile:
 
-Changes battery icon color based on power profile:
+- 🟢 **Power Saver**: Teal (#2DBA6E)  
+- 🔵 **Performance**: Blue (#3484E4)  
 
-- 🟢 **Power Saver**: Teal (#2DBA6E)
-- 🔵 **Performance**: Blue (#3484E4)
+---
 
 ## ✨ Features
-- Instant color changes when switching power profiles
-- Fully customizable colors via preferences
-- Supports GNOME Shell 45-49
-- Lightweight - no external dependencies
+- Instant color changes when switching power profiles  
+- Fully customizable colors via preferences  
+- Compatible with GNOME Shell 45–49  
+- Lightweight — no external dependencies  
+
+---
+
+## 📦 Installation
+[Download from extensions.gnome.org]([https://extensions.gnome.org/extension/XXXX/battery-power-mode-indicator/](https://extensions.gnome.org/extension/9204/battery-power-mode-indicator/))
 
 
-## Installation
+### Manual Installation
 
-1. git clone https://github.com/nirmaladvani/battery-power-mode-indicator.git
-2. cd battery-power-mode-indicator
-3. cp . ~/.local/share/gnome-shell/extensions/battery-power-mode-indicator@nirmaladvani.github.com/
-4. Press Alt + F2, then type r and press Enter if you are running X11 else restart or logout and login back on wayland.
+Run the following commands in your terminal:
 
-<!--
-1. [Download from extensions.gnome.org](https://extensions.gnome.org/extension/XXXX/battery-power-mode-indicator/)
-2. Or install via GNOME Extensions website
-
--->
+```
+git clone https://github.com/nirmaladvani/battery-power-mode-indicator.git
+```
+```
+cd battery-power-mode-indicator
+```
+```
+mkdir -p ~/.local/share/gnome-shell/extensions/battery-power-mode-indicator@nirmaladvani.github.com
+```
+```
+cp -r * ~/.local/share/gnome-shell/extensions/battery-power-mode-indicator@nirmaladvani.github.com/
+```
