@@ -1,7 +1,7 @@
 # Battery Power Mode Indicator
 
 **Version:** 2.0  
-**GNOME Shell:** 45–49 • **License:** GPL-3.0  
+**GNOME Shell:** 45–49 • **License:** GPL-2.0  
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/nirmaladvani/battery-power-mode-indicator)
 
