@@ -8,7 +8,7 @@
 [![GNOME Extensions](https://github.com/andyholmes/gnome-shell-extensions-badge/raw/master/get-it-on-ego.png)](https://extensions.gnome.org/extension/9204/battery-power-mode-indicator/)
 
 
-A GNOME Shell extension that visually indicates your active power profile by changing the battery icon color: 🟢 **Power Saver** (Teal #2DBA6E) and 🔵 **Performance** (Blue #3484E4).
+A GNOME Shell extension that visually indicates your active power profile by changing the battery icon color.
 
 ## ✨ Features
 
@@ -26,7 +26,9 @@ A GNOME Shell extension that visually indicates your active power profile by cha
 
 ### Manual Installation
 ```
-git clone https://github.com/nirmaladvani/battery-power-mode-indicator.git ```
+git clone https://github.com/nirmaladvani/battery-power-mode-indicator.git 
+```
+
 ```
 cd battery-power-mode-indicator
 mkdir -p ~/.local/share/gnome-shell/extensions/battery-power-mode-indicator@nirmaladvani.github.com
@@ -35,6 +37,7 @@ mkdir -p ~/.local/share/gnome-shell/extensions/battery-power-mode-indicator@nirm
 cp -r ./* ~/.local/share/gnome-shell/extensions/battery-power-mode
 -indicator@nirmaladvani.github.com/
 ```
+
 X11: Restart GNOME Shell: Alt+F2, 'r', Enter
 
 Wayland: Restart or logout and login back.
