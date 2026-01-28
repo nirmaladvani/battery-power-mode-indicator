@@ -35,6 +35,10 @@ mkdir -p ~/.local/share/gnome-shell/extensions/battery-power-mode-indicator@nirm
 cp -r ./* ~/.local/share/gnome-shell/extensions/battery-power-mode-indicator@nirmaladvani.github.com/
 ```
 
+```
+glib-compile-schemas ~/.local/share/gnome-shell/extensions/battery-power-mode-indicator@nirmaladvani.github.com/schemas/
+```
+
 X11: Restart GNOME Shell: Alt+F2, 'r', Enter
 
 Wayland: Restart or logout and login back.
