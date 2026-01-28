@@ -3,8 +3,6 @@
 **Version:** 3.0  
 **GNOME Shell:** 45–49 • **License:** GPL-2.0  
 
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/nirmaladvani/battery-power-mode-indicator)
-
 [![GNOME Extensions](https://github.com/andyholmes/gnome-shell-extensions-badge/raw/master/get-it-on-ego.png)](https://extensions.gnome.org/extension/9204/battery-power-mode-indicator/)
 
 
