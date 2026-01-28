@@ -76,16 +76,27 @@ export default class PowerColorExtension extends Extension {
     const profile =
       this._proxy.get_cached_property('ActiveProfile')?.unpack() || 'balanced'
     const powerActor = this._getPowerActor()
-
     if (!powerActor) return
 
     powerActor.set_style(null)
 
-    if (profile === 'power-saver') {
+    if (
+      profile === 'power-saver' &&
+      this._settings.get_boolean('saver-enabled')
+    ) {
       const color = this._settings.get_string('saver-color')
       powerActor.set_style(`color: ${color} !important;`)
-    } else if (profile === 'performance') {
+    } else if (
+      profile === 'performance' &&
+      this._settings.get_boolean('performance-enabled')
+    ) {
       const color = this._settings.get_string('performance-color')
+      powerActor.set_style(`color: ${color} !important;`)
+    } else if (
+      profile === 'balanced' &&
+      this._settings.get_boolean('balanced-enabled')
+    ) {
+      const color = this._settings.get_string('balanced-color')
       powerActor.set_style(`color: ${color} !important;`)
     }
   }

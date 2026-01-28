@@ -1,9 +1,9 @@
 {
   "uuid": "battery-power-mode-indicator@nirmaladvani.github.com",
   "name": "Battery Power Mode Indicator",
-  "description": "Changes battery icon color based on active power profile.\n\n• Power Saver: Teal #2DBA6E\n• Performance: Blue #3484E4",
+  "description": "Changes battery icon color based on active power profile.\n\n•  Each mode color can be customized and individually enabled or disabled",
   "shell-version": ["45", "46", "47", "48", "49"],
   "settings-schema": "org.gnome.shell.extensions.battery-power-mode-indicator",
   "url": "https://github.com/nirmaladvani/battery-power-mode-indicator",
-  "version": 2
+  "version": 3
 }

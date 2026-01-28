@@ -6,10 +6,32 @@
       <summary>Color for Power Saver mode</summary>
       <description>Battery icon color when in power-saver profile</description>
     </key>
+    <key name="saver-enabled" type="b">
+      <default>true</default>
+      <summary>Enable Power Saver color</summary>
+      <description>Whether to apply color in power-saver profile</description>
+    </key>
+
     <key name="performance-color" type="s">
       <default>'#3484E4'</default>
       <summary>Color for Performance mode</summary>
       <description>Battery icon color when in performance profile</description>
+    </key>
+    <key name="performance-enabled" type="b">
+      <default>true</default>
+      <summary>Enable Performance color</summary>
+      <description>Whether to apply color in performance profile</description>
+    </key>
+
+    <key name="balanced-color" type="s">
+      <default>'#FFFFFF'</default>
+      <summary>Color for Balanced mode</summary>
+      <description>Battery icon color when in balanced profile</description>
+    </key>
+    <key name="balanced-enabled" type="b">
+      <default>false</default>
+      <summary>Enable Balanced color</summary>
+      <description>Whether to apply color in balanced profile</description>
     </key>
   </schema>
 </schemalist>
