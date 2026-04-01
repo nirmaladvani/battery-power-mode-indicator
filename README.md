@@ -1,7 +1,7 @@
 # Battery Power Mode Indicator
 
-**Version:** 3.0  
-**GNOME Shell:** 45–49 • **License:** GPL-2.0  
+**Version:** 5.0  
+**GNOME Shell:** 45, 46, 47, 48, 49, and 50 • **License:** GPL-2.0  
 
 [![GNOME Extensions](https://github.com/andyholmes/gnome-shell-extensions-badge/raw/master/get-it-on-ego.png)](https://extensions.gnome.org/extension/9204/battery-power-mode-indicator/)
 
@@ -39,6 +39,6 @@ cp -r ./* ~/.local/share/gnome-shell/extensions/battery-power-mode-indicator@nir
 glib-compile-schemas ~/.local/share/gnome-shell/extensions/battery-power-mode-indicator@nirmaladvani.github.com/schemas/
 ```
 
-X11: Restart GNOME Shell: Alt+F2, 'r', Enter
+X11: Restart GNOME Shell: Alt+F2, type R, and press Enter
 
 Wayland: Restart or logout and login back.
