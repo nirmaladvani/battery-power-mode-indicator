@@ -1,21 +1,20 @@
 # Battery Power Mode Indicator
 
-**Version:** 5.0  
-**GNOME Shell:** 45, 46, 47, 48, 49, and 50 • **License:** GPL-2.0  
+**Version:** 6.0  
+**GNOME Shell:** 45, 46, 47, 48, 49, 50, and 51 • **License:** GPL-2.0  
 
 [![GNOME Extensions](https://github.com/andyholmes/gnome-shell-extensions-badge/raw/master/get-it-on-ego.png)](https://extensions.gnome.org/extension/9204/battery-power-mode-indicator/)
 
 
 A GNOME Shell extension that visually indicates your active power profile by changing the battery icon color.
 
-## ✨ Features
+## Features
 
 - **Real-time Updates**: Instant color changes when switching power profiles
 - **Full Customization**: Adjustable colors via extension preferences
-- **Broad Compatibility**: Works with GNOME Shell 45–49
-- **Lightweight**: Zero external dependencies
+- **Broad Compatibility**: Works with GNOME Shell 45–51
 
-## 📦 Installation
+## Installation
 
 ### From Extensions Website (Recommended)
 1. Install the [GNOME Shell Integration browser extension](https://wiki.gnome.org/Projects/GnomeShellIntegration)
